@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>270</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>400</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:rgb(90, 188, 229);
+
+</string>
+  </property>
+  <widget class="QLabel" name="papich">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>10</y>
+     <width>111</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>348</width>
+     <height>170</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0">
+    <property name="spacing">
+     <number>12</number>
+    </property>
+    <property name="leftMargin">
+     <number>6</number>
+    </property>
+    <property name="topMargin">
+     <number>12</number>
+    </property>
+    <property name="rightMargin">
+     <number>6</number>
+    </property>
+    <property name="bottomMargin">
+     <number>12</number>
+    </property>
+    <item>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_e">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(232, 186, 116);
+font-size:16px;
+font-weight:bold;
+</string>
+        </property>
+        <property name="text">
+         <string>Email</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="login">
+        <property name="styleSheet">
+         <string notr="true">color: white;
+border: 1px solid white;
+</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="email">
+        <property name="styleSheet">
+         <string notr="true">color: white;
+border: 1px solid white;
+</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_p">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(232, 186, 116);
+font-size:16px;
+font-weight:bold;
+</string>
+        </property>
+        <property name="text">
+         <string>Password</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="pass">
+        <property name="styleSheet">
+         <string notr="true">color: white;
+border: 1px solid white;
+</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_l">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(232, 186, 116);
+font-size:16px;
+font-weight:bold;
+</string>
+        </property>
+        <property name="text">
+         <string>Login</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="auth">
+        <property name="styleSheet">
+         <string>color: rgb(232, 186, 116);
+font-size:13px;
+font-weight:bold;
+background:rgb(140,140,140)</string>
+        </property>
+        <property name="text">
+         <string>Authorisation</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="reg">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(232, 186, 116);
+font-size:13px;
+font-weight:bold;
+background:rgb(140,140,140)</string>
+        </property>
+        <property name="text">
+         <string>Registration</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="change">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(232, 186, 116);
+font-size:13px;
+font-weight:bold;
+background:rgb(140,140,140)</string>
+        </property>
+        <property name="text">
+         <string>Create an account</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
